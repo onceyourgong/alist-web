@@ -11,8 +11,8 @@ cd ../assets
 rm -rf dist
 cp -r ../dist .
 git add .
-git config --local user.email "i@nn.ci"
-git config --local user.name "Xhofe"
+git config --local user.email "124814669@qq.com"
+git config --local user.name "onceyourgong"
 git commit --allow-empty -m "upload $version assets files" -a
 git tag -a $version -m "upload $version assets files"
 cd ..
