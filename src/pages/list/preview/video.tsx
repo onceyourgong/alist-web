@@ -209,8 +209,8 @@ const Video = ({ file }: FileProps) => {
         <Button colorScheme="orange" as={chakra.a} href={`deovr://${link}`}>
           deovr
         </Button>
-        <Button colorScheme="teal" as={chakra.a} href={`nplayer-${link}`}>
-          nPlayer
+        <Button colorScheme="teal" as={chakra.a} href={`${link}`}>
+          httplink
         </Button>
         <Button
           colorScheme="blue"
